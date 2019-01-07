@@ -1,0 +1,48 @@
+Range over lap:
+There are different range list passed as an input, it can be in any order.
+the program reduces the overlapping range and passes the list that is not overlapping.
+
+Getting Started:
+Copy the code in your work station and run the test in test package to see the output.
+
+example:
+Input range is input list for test case
+Output range is non overlapping range list
+Expected range is not overlapping range list
+
+--------------------------null test------------------------
+Range should be retuned as null
+--------------------------null test------------------------
+--------------------------empty test------------------------
+Range should be retuned as null
+--------------------------empty test------------------------
+--------------------------my test------------------------
+Input start range: 8 end range 9
+Input start range: 4 end range 5
+Input start range: 5 end range 6
+Input start range: 1 end range 2
+Input start range: 2 end range 3
+Input start range: 3 end range 4
+Output start range: 1 end range 6
+Output start range: 8 end range 9
+Expected start range: 1 end range 6
+Expected start range: 8 end range 9
+--------------------------my test------------------------
+--------------------------my valid test------------------------
+Input start range: 49679 end range 52015
+Input start range: 49800 end range 50000
+Input start range: 51500 end range 53479
+Input start range: 45012 end range 46937
+Input start range: 54012 end range 59607
+Input start range: 45500 end range 45590
+Input start range: 45999 end range 47900
+Input start range: 44000 end range 45000
+Input start range: 43012 end range 45950
+Output start range: 43012 end range 47900
+Output start range: 49679 end range 53479
+Output start range: 54012 end range 59607
+Expected start range: 43012 end range 47900
+Expected start range: 49679 end range 53479
+Expected start range: 54012 end range 59607
+--------------------------my valid test------------------------
+
